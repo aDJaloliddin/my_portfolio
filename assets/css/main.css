@@ -1,0 +1,94 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: rgb(241, 239, 239);
+}
+
+.nav-link {
+    padding: 0.25rem 1rem;
+}
+/* Navbar */
+.u-bg-dark {
+    background-color: #131516;
+}
+
+.u-text-white {
+    color: rgb(202, 195, 195);
+}
+
+.list-group-item {
+    background-color: #000;
+    color: rgb(230, 227, 227);
+}
+/* home */
+.home__image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.home__greeting {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.25rem 2rem;
+    border-radius: 2rem;
+    border-bottom-left-radius: 0;
+}
+
+.home__name {
+    font-weight: 600;
+}
+
+/* About section */
+.about__image {
+    width: 100%;
+}
+
+/* Skills */
+.skills__card {
+    background-color: #131516;
+}
+
+.circle-progress-bar__outer {
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.circle-progress-bar__inner {
+    display: inline-block;
+    padding: 1.6em 1.5rem;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.circle-progress-bar--percent-95 {
+    background-image: conic-gradient(green 95%, #131516 95% 100%);
+}
+
+.circle-progress-bar--percent-55 {
+    background-image: conic-gradient(green 55%, #131516 55% 100%);
+}
+
+.circle-progress-bar--percent-86 {
+    background-image: conic-gradient(green 86%, #131516 86% 100%);
+}
+
+.circle-progress-bar--percent-60 {
+    background-image: conic-gradient(green 60%, #131516 60% 100%);
+}
+
+/* Portfolio */
+.sub-navbar__link {
+    color: rgb(233, 232, 232);
+}
+
+/* Contact Me */
+.address__icon {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+}
